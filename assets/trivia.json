@@ -1,0 +1,199 @@
+{
+  "questions":[
+    {
+      "title": "El Lavado Perfecto lo haces con:",
+      "answers": {
+        "a": "Detergentes – Lavalozas – Quitamanchas",
+        "b": "Detergentes – Suavizantes – Quitamanchas",
+        "c": "Detergentes – Limpiadores – Quitamanchas"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "Los Detergentes de Ferias no son recomendados por:",
+      "answers": {
+        "a": "Tienen menor dosificación por lavado",
+        "b": "Tienen un bajo nivel de activos en su formulación",
+        "c": "Tienen muchos aditivos"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "¿Por qué el cambio de Bolsas versus Cajas?",
+      "answers": {
+        "a": "Las Cajas no son reciclables",
+        "b": "Las Cajas tiene menor durabilidad",
+        "c": "Las Cajas cuesta más el armado"
+      },
+      "win": {
+        1: true,
+        2: false,
+        3: false
+      }
+    },
+    {
+      "title": "Las nuevas Bolsas de detergentes son:",
+      "answers": {
+        "a": "100% Reutilizables",
+        "b": "100% Reciclables",
+        "c": "100% Sustentables"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "Todas las Bolsas de Detergentes tienen un logo que dice:",
+      "answers": {
+        "a": "Eco Saco 100% Biodegradable",
+        "b": "Eco Bolsa 100% Reutilizables",
+        "c": "Eco Bolsa 100% Reciclables"
+      },
+      "win": {
+        1: false,
+        2: false,
+        3: true
+      }
+    },
+    {
+      "title": "El suavizante Soft cuantos beneficios tiene:",
+      "answers": {
+        "a": "4 beneficios",
+        "b": "5 beneficios",
+        "c": "6 beneficios"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "OMO y Soft Piel sensible ayudan:",
+      "answers": {
+        "a": "Deja tu ropa limpia y suave con un olor exquisito",
+        "b": "Dejan tu ropa suave y fácil de planchar",
+        "c": "Deja impecable y con olor increíble"
+      },
+      "win": {
+        1: true,
+        2: false,
+        3: false
+      }
+    },
+    {
+      "title": "Los detergentes de nuestras marcas están:",
+      "answers": {
+        "a": "Tienen mayores niveles de activos de Limpieza",
+        "b": "Tienen bajo performance",
+        "c": "Tienen altos preservantes en la formula"
+      },
+      "win": {
+        1: true,
+        2: false,
+        3: false
+      }
+    },
+    {
+      "title": "La publicidad de OMO Quitamanchas dice:",
+      "answers": {
+        "a": "Saca todo tipo de Machas",
+        "b": "Remueve las manchas difíciles",
+        "c": "Elimina las manchas de chocolate"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "Soft que hace en tu ropa:",
+      "answers": {
+        "a": "Mantiene Limpia y Fresca tu ropa al contacto con tu piel",
+        "b": "Mantiene las fibras lisas, para que la ropa se sienta suave y delicada al tacto, con un toque suave de fragancia",
+        "c": "Mantiene las fibras alineadas y ordenas con un rico y suave perfume"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "Soft y OMO Piel Sensible es solo para:",
+      "answers": {
+        "a": "Solo ropa de guagua",
+        "b": "Ropa de guagua, ropa interior y todo tipo de prendas",
+        "c": "Solo ropa de adultos"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "Las nuevas Bolsas se Detergentes que beneficios poseen:",
+      "answers": {
+        "a": "Son de PE, material 100% reciclable",
+        "b": "Son de Plástico, 99% reutilizable",
+        "c": "Son Ecológicas 100% Biodegradables"
+      },
+      "win": {
+        1: true,
+        2: false,
+        3: false
+      }
+    },
+    {
+      "title": "La tarea de un detergente es:",
+      "answers": {
+        "a": "Eliminar la suciedad y sacar manchas",
+        "b": "No dañar y Perfumar la ropa",
+        "c": "Eliminar olores y Suciedad"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "La dosificación del detergente se calcula según:",
+      "answers": {
+        "a": "El grado de suciedad de la ropa y la dureza del agua",
+        "b": "Las machas y tipo de ropa a lavar",
+        "c": "El tipo de lavadora y tipo de ropa"
+      },
+      "win": {
+        1: true,
+        2: false,
+        3: false
+      }
+    },
+    {
+      "title": "¿Por qué es necesario un suavizante?",
+      "answers": {
+        "a": "El suavizante perfuma y suaviza la ropa",
+        "b": "Retorna la flexibilidad a la ropa, recomponiendo las fibras y además perfumándolas",
+        "c": "Hace la ropa dure más, además las deja con una agradable fragancia"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    }
+  ]
+}
