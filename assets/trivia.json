@@ -14,7 +14,7 @@
       }
     },
     {
-      "title": "Los Detergentes de Ferias no son recomendados por:",
+      "title": "Los Detergentes de Ferias no son recomendados porque:",
       "answers": {
         "a": "Tienen menor dosificación por lavado",
         "b": "Tienen un bajo nivel de activos en su formulación",
@@ -27,10 +27,10 @@
       }
     },
     {
-      "title": "¿Por qué el cambio de Bolsas versus Cajas?",
+      "title": "Por qué se hizo el cambio de Bolsas versus Cajas:",
       "answers": {
         "a": "Las Cajas no son reciclables",
-        "b": "Las Cajas tiene menor durabilidad",
+        "b": "Las Cajas tienen menor durabilidad",
         "c": "Las Cajas cuesta más el armado"
       },
       "win": {
@@ -79,11 +79,11 @@
       }
     },
     {
-      "title": "OMO y Soft Piel sensible ayudan:",
+      "title": "OMO y Soft Piel sensible ayudan porque:",
       "answers": {
         "a": "Deja tu ropa limpia y suave con un olor exquisito",
-        "b": "Dejan tu ropa suave y fácil de planchar",
-        "c": "Deja impecable y con olor increíble"
+        "b": "Deja tu ropa suave y fácil de planchar",
+        "c": "Deja tu ropa impecable y con olor increíble"
       },
       "win": {
         1: true,
@@ -92,11 +92,11 @@
       }
     },
     {
-      "title": "Los detergentes de nuestras marcas están:",
+      "title": "Los detergentes de nuestras marcas:",
       "answers": {
         "a": "Tienen mayores niveles de activos de Limpieza",
         "b": "Tienen bajo performance",
-        "c": "Tienen altos preservantes en la formula"
+        "c": "Tienen altos preservantes en la fórmula"
       },
       "win": {
         1: true,
@@ -105,9 +105,9 @@
       }
     },
     {
-      "title": "La publicidad de OMO Quitamanchas dice:",
+      "title": "La publicidad de OMO Quitamanchas comunica que:",
       "answers": {
-        "a": "Saca todo tipo de Machas",
+        "a": "Saca todo tipo de Manchas",
         "b": "Remueve las manchas difíciles",
         "c": "Elimina las manchas de chocolate"
       },
@@ -118,11 +118,11 @@
       }
     },
     {
-      "title": "Soft que hace en tu ropa:",
+      "title": "Soft que hace en tu ropa",
       "answers": {
         "a": "Mantiene Limpia y Fresca tu ropa al contacto con tu piel",
         "b": "Mantiene las fibras lisas, para que la ropa se sienta suave y delicada al tacto, con un toque suave de fragancia",
-        "c": "Mantiene las fibras alineadas y ordenas con un rico y suave perfume"
+        "c": "Mantiene las fibras alineadas y ordenadas con un rico y suave perfume"
       },
       "win": {
         1: false,
@@ -131,7 +131,7 @@
       }
     },
     {
-      "title": "Soft y OMO Piel Sensible es solo para:",
+      "title": "Soft y OMO Piel Sensible son para:",
       "answers": {
         "a": "Solo ropa de guagua",
         "b": "Ropa de guagua, ropa interior y todo tipo de prendas",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "title": "Las nuevas Bolsas se Detergentes que beneficios poseen:",
+      "title": "Las nuevas Bolsas de Detergentes que beneficios poseen:",
       "answers": {
         "a": "Son de PE, material 100% reciclable",
         "b": "Son de Plástico, 99% reutilizable",
@@ -170,10 +170,10 @@
       }
     },
     {
-      "title": "La dosificación del detergente se calcula según:",
+      "title": "La dosificación del detergente se calcula según",
       "answers": {
         "a": "El grado de suciedad de la ropa y la dureza del agua",
-        "b": "Las machas y tipo de ropa a lavar",
+        "b": "Las manchas y tipo de ropa a lavar",
         "c": "El tipo de lavadora y tipo de ropa"
       },
       "win": {
@@ -187,7 +187,7 @@
       "answers": {
         "a": "El suavizante perfuma y suaviza la ropa",
         "b": "Retorna la flexibilidad a la ropa, recomponiendo las fibras y además perfumándolas",
-        "c": "Hace la ropa dure más, además las deja con una agradable fragancia"
+        "c": "Hace que la ropa dure más, además la deja con agradable fragancia"
       },
       "win": {
         1: false,
