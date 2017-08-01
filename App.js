@@ -123,10 +123,23 @@ export default class App extends React.Component {
             <Image
               style={{position:'absolute', top:45}}
               source={require('./assets/logo.png')}/>
-            <TouchableOpacity onPress={this.shuffleTrivia.bind(this)} style={{position:'absolute', top:375}}>
+            <TouchableOpacity onPress={this.shuffleTrivia.bind(this)} style={{position:'absolute', top:500, zIndex:99}}>
               <Image
                 source={require('./assets/begin.png')}/>
             </TouchableOpacity>
+            <Text style={
+              {
+                position: 'absolute',
+                top: 330,
+                zIndex: 80,
+                backgroundColor: 'transparent',
+                fontSize: 36,
+                color: '#fff',
+                padding: 50,
+              }
+            }>
+              Responde correctamente las siguientes 3 preguntas, y ¡Gana el desafío del Lavado Perfecto!
+            </Text>
             <Image
               style={{position:'absolute', bottom:0}}
               source={require('./assets/washers.png')}/>
