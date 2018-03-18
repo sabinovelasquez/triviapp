@@ -30,7 +30,7 @@ export default class App extends React.Component {
   }
   componentDidMount() {
     Font.loadAsync({
-      'Montserrat-Regular': require('./fonts/Montserrat-Regular.ttf'),
+      'myriadpro-regular': require('./assets/fonts/MyriadPro-Regular.ttf'),
     });
   }
   shuffleTrivia() {
@@ -75,7 +75,7 @@ export default class App extends React.Component {
     if( current == 3){
       if(score >= 3){
         this.setState({
-          endText: '¡Felicitaciones has ganado el desafío del Lavado Perfecto!'
+          endText: '¡Felicitaciones has ganado el desafío del nuevo Dove Serum!'
         });
       }else{
         this.setState({
@@ -121,28 +121,30 @@ export default class App extends React.Component {
               justifyContent: 'center'
             }}>
             <Image
-              style={{position:'absolute', top:45}}
+              style={{position:'absolute', top:80}}
               source={require('./assets/logo.png')}/>
-            <TouchableOpacity onPress={this.shuffleTrivia.bind(this)} style={{position:'absolute', top:500, zIndex:99}}>
+            <TouchableOpacity onPress={this.shuffleTrivia.bind(this)} style={{position:'absolute', top:440, zIndex:99}}>
               <Image
                 source={require('./assets/begin.png')}/>
             </TouchableOpacity>
             <Text style={
               {
                 position: 'absolute',
-                top: 330,
+                top: 260,
                 zIndex: 80,
+                textAlign: 'center',
                 backgroundColor: 'transparent',
-                fontSize: 36,
-                color: '#fff',
-                padding: 50,
+                fontSize: 33,
+                color: '#00477F',
+                padding: 40,
               }
             }>
-              Responde correctamente las siguientes 3 preguntas, y ¡Gana el desafío del Lavado Perfecto!
+              Responde correctamente las siguientes 3 preguntas y ¡Gana con el Nuevo 
+              <Text style={{fontWeight: 'bold'}}> Dove Serum!</Text>
             </Text>
             <Image
-              style={{position:'absolute', bottom:0}}
-              source={require('./assets/washers.png')}/>
+              style={{position:'absolute', bottom:80, right:80}}
+              source={require('./assets/dove_bottle.png')}/>
           </View>
           
         </View>
@@ -162,11 +164,8 @@ export default class App extends React.Component {
               justifyContent: 'center'
             }}>
             <Image
-              style={{position:'absolute', top:45}}
+              style={{position:'absolute', top:80}}
               source={require('./assets/logo.png')}/>
-            <Image
-              style={{position:'absolute', top:375}}
-              source={require('./assets/bg-q.png')}/>
             <View style={{
               width: '80%',
               opacity: this.state.end ? 1 : 0,
@@ -174,10 +173,11 @@ export default class App extends React.Component {
             }}>
               <Text style={
                 {
-                  // fontFamily: 'Montserrat-Regular',
-                  fontSize: 36,
+                  // fontFamily: 'myriadpro-regular',
+                  fontSize: 34,
                   marginBottom: 8,
-                  color: '#3D3D3D',
+                  textAlign: 'center',
+                  color: '#00477F',
                   backgroundColor: 'transparent'}
                 }>
                 {this.state.endText}
@@ -190,48 +190,48 @@ export default class App extends React.Component {
             }}>
               <Text style={
                 {
-                  // fontFamily: 'Montserrat-Regular',
-                  fontSize: 36,
+                  // fontFamily: 'myriadpro-regular',
+                  fontSize: 30,
                   marginBottom: 8,
-                  color: '#3D3D3D',
+                  color: '#00477F',
                   backgroundColor: 'transparent'}
                 }>
                 {this.state.title}
               </Text>
               <Text style={
                 {
-                  // fontFamily: 'Montserrat-Regular',
+                  // fontFamily: 'myriadpro-regular',
                   fontSize: 26,
-                  color: '#3D3D3D',
+                  color: '#00477F',
                   backgroundColor: 'transparent'}
                 }>A) {this.state.answers.a}</Text>
               <Text style={
                 {
                   fontSize: 26,
-                  color: '#3D3D3D',
+                  color: '#00477F',
                   backgroundColor: 'transparent'}
                 }>B) {this.state.answers.b}</Text>
               <Text style={
                 {
-                  // fontFamily: 'Montserrat-Regular',
+                  // fontFamily: 'myriadpro-regular',
                   fontSize: 26,
-                  color: '#3D3D3D',
+                  color: '#00477F',
                   backgroundColor: 'transparent'}
                 }>C) {this.state.answers.c}</Text>
             </View>
             <Text style={
               {
                 position: 'absolute',
-                bottom: 350,
+                bottom: 250,
                 fontSize: 26,
-                color: '#3D3D3D',
+                color: '#00477F',
                 opacity: this.state.end ? 0 : 1,
                 height: this.state.end ? 0 : 'auto',
                 backgroundColor: 'transparent'}
               }>{this.state.current} de 3</Text>
             <View style={{
               position: 'absolute',
-              bottom: 90,
+              bottom: 120,
               width: '100%',
               flex: 1,
               flexDirection: 'row',
@@ -260,7 +260,7 @@ export default class App extends React.Component {
               opacity: this.state.next ? 1 : 0,
               height: this.state.next ? 'auto' : 0,
               position: 'absolute',
-              bottom:260
+              bottom:40
             }}>
               <TouchableOpacity onPress={()=>this.next()}>
                 <Image source={require('./assets/next.png')}/>

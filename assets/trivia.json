@@ -1,63 +1,11 @@
 {
   "questions":[
     {
-      "title": "El Lavado Perfecto lo haces con:",
+      "title": "¿Qué Vitamina contiene la fórmula?",
       "answers": {
-        "a": "Detergentes – Lavalozas – Quitamanchas",
-        "b": "Detergentes – Suavizantes – Quitamanchas",
-        "c": "Detergentes – Limpiadores – Quitamanchas"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "Los Detergentes de Ferias no son recomendados porque:",
-      "answers": {
-        "a": "Tienen menor dosificación por lavado",
-        "b": "Tienen un bajo nivel de activos en su formulación",
-        "c": "Tienen muchos aditivos"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "Por qué se hizo el cambio de Bolsas versus Cajas:",
-      "answers": {
-        "a": "Las Cajas no son reciclables",
-        "b": "Las Cajas tienen menor durabilidad",
-        "c": "Las Cajas cuesta más el armado"
-      },
-      "win": {
-        1: true,
-        2: false,
-        3: false
-      }
-    },
-    {
-      "title": "Las nuevas Bolsas de detergentes son:",
-      "answers": {
-        "a": "100% Reutilizables",
-        "b": "100% Reciclables",
-        "c": "100% Sustentables"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "Todas las Bolsas de Detergentes tienen un logo que dice:",
-      "answers": {
-        "a": "Eco Saco 100% Biodegradable",
-        "b": "Eco Bolsa 100% Reutilizables",
-        "c": "Eco Bolsa 100% Reciclables"
+        "a": "Vitamina B2",
+        "b": "Vitamina C",
+        "c": "Vitamina B3"
       },
       "win": {
         1: false,
@@ -66,11 +14,11 @@
       }
     },
     {
-      "title": "El suavizante Soft cuantos beneficios tiene:",
+      "title": "¿Qué es lo que diferencia este antitranspirante de otros?",
       "answers": {
-        "a": "4 beneficios",
-        "b": "5 beneficios",
-        "c": "6 beneficios"
+        "a": "Ofrece mayor protección que un antitranspirante regular.",
+        "b": "Es el único con Serum Aclarant y Vitamina B3 en su fórmula.",
+        "c": "Posee ¼ de crema humectante"
       },
       "win": {
         1: false,
@@ -79,11 +27,50 @@
       }
     },
     {
-      "title": "OMO y Soft Piel sensible ayudan porque:",
+      "title": "¿Cuántas mujeres obtuvieron resultados visibles?",
       "answers": {
-        "a": "Deja tu ropa limpia y suave con un olor exquisito",
-        "b": "Deja tu ropa suave y fácil de planchar",
-        "c": "Deja tu ropa impecable y con olor increíble"
+        "a": "50% de las mujeres",
+        "b": "99% de las mujeres",
+        "c": "100% de las mujeres"
+      },
+      "win": {
+        1: false,
+        2: false,
+        3: true
+      }
+    },
+    {
+      "title": "¿Cómo actúa el nuevo Dove Serum Aclarant?",
+      "answers": {
+        "a": "Trabaja sobre las células ayudando a la renovación de la piel",
+        "b": "Recupera el tono natural de las axilas",
+        "c": "Todas las anteriores."
+      },
+      "win": {
+        1: false,
+        2: false,
+        3: true
+      }
+    },
+    {
+      "title": "¿Cuál es la causa de las manchas en las axilas?",
+      "answers": {
+        "a": "No tiene una causa definida",
+        "b": "Falta de Hierro en el organismo",
+        "c": "Irritación al remover el bello"
+      },
+      "win": {
+        1: false,
+        2: false,
+        3: true
+      }
+    },
+    {
+      "title": "¿Según estudios realizados cuántas mujeres sufren de manchas en las axilas alrededor del mundo?",
+      "answers": {
+        "a": "1 de cada 3 mujeres",
+        "b": "2 de cada 3 mujeres",
+        "c": "3 de cada 3 mujeres"
       },
       "win": {
         1: true,
@@ -92,106 +79,41 @@
       }
     },
     {
-      "title": "Los detergentes de nuestras marcas:",
+      "title": "¿Cuál es la reacción del cuerpo que genera las manchas en las axilas?",
       "answers": {
-        "a": "Tienen mayores niveles de activos de Limpieza",
-        "b": "Tienen bajo performance",
-        "c": "Tienen altos preservantes en la fórmula"
+        "a": "El cuerpo comienza a sobre producir hormonas",
+        "b": "Sobreproducción de melanina (pigmento)",
+        "c": "Se generan por herencia"
+      },
+      "win": {
+        1: false,
+        2: true,
+        3: false
+      }
+    },
+    {
+      "title": "¿Cómo actúa la Vitamina B3?",
+      "answers": {
+        "a": "Ayuda a tonificar la superficie de la piel",
+        "b": "Genera manchas en las axilas",
+        "c": "Inhibe la transferencia de melanina a la superficie de la piel"
+      },
+      "win": {
+        1: false,
+        2: false,
+        3: true
+      }
+    },
+    {
+      "title": "¿Cómo actual el ¼ de crema humectante de Dove?",
+      "answers": {
+        "a": "Calma la irritación después de remover el bello",
+        "b": "Ayuda a que el bello sea más delgado",
+        "c": "Reduce la cantidad de bellos en las axilas"
       },
       "win": {
         1: true,
         2: false,
-        3: false
-      }
-    },
-    {
-      "title": "La publicidad de OMO Quitamanchas comunica que:",
-      "answers": {
-        "a": "Saca todo tipo de Manchas",
-        "b": "Remueve las manchas difíciles",
-        "c": "Elimina las manchas de chocolate"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "Soft que hace en tu ropa",
-      "answers": {
-        "a": "Mantiene Limpia y Fresca tu ropa al contacto con tu piel",
-        "b": "Mantiene las fibras lisas, para que la ropa se sienta suave y delicada al tacto, con un toque suave de fragancia",
-        "c": "Mantiene las fibras alineadas y ordenadas con un rico y suave perfume"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "Soft y OMO Piel Sensible son para:",
-      "answers": {
-        "a": "Solo ropa de guagua",
-        "b": "Ropa de guagua, ropa interior y todo tipo de prendas",
-        "c": "Solo ropa de adultos"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "Las nuevas Bolsas de Detergentes que beneficios poseen:",
-      "answers": {
-        "a": "Son de PE, material 100% reciclable",
-        "b": "Son de Plástico, 99% reutilizable",
-        "c": "Son Ecológicas 100% Biodegradables"
-      },
-      "win": {
-        1: true,
-        2: false,
-        3: false
-      }
-    },
-    {
-      "title": "La tarea de un detergente es:",
-      "answers": {
-        "a": "Eliminar la suciedad y sacar manchas",
-        "b": "No dañar y Perfumar la ropa",
-        "c": "Eliminar olores y Suciedad"
-      },
-      "win": {
-        1: false,
-        2: true,
-        3: false
-      }
-    },
-    {
-      "title": "La dosificación del detergente se calcula según",
-      "answers": {
-        "a": "El grado de suciedad de la ropa y la dureza del agua",
-        "b": "Las manchas y tipo de ropa a lavar",
-        "c": "El tipo de lavadora y tipo de ropa"
-      },
-      "win": {
-        1: true,
-        2: false,
-        3: false
-      }
-    },
-    {
-      "title": "¿Por qué es necesario un suavizante?",
-      "answers": {
-        "a": "El suavizante perfuma y suaviza la ropa",
-        "b": "Retorna la flexibilidad a la ropa, recomponiendo las fibras y además perfumándolas",
-        "c": "Hace que la ropa dure más, además la deja con agradable fragancia"
-      },
-      "win": {
-        1: false,
-        2: true,
         3: false
       }
     }
