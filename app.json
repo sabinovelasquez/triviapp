@@ -1,9 +1,9 @@
 {
    "expo": { 
-    "name": "Trivia Lavado Perfecto",
+    "name": "Trivia Dove",
     "icon": "./assets/icon.png",
     "version": "1.0.0",
-    "slug": "tirvia",
+    "slug": "trivia",
     "sdkVersion": "19.0.0",
     "ios": {
       "bundleIdentifier": "cl.sabino.trivia"
